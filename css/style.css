@@ -1,0 +1,158 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(17,17,17);
+    color: white;
+}
+.container{
+    width: 83%;
+    padding-left: auto;
+    padding-right: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: 	#999999;
+}
+
+img{
+    max-width: 90%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header p{
+    position: absolute;
+    font-size: 28px;
+    top: 158px; 
+    width: 85%;
+
+}
+header p strong {
+    color: rgb(85,85,85);
+}
+header .contact {
+    position: absolute;
+    top: 451px;
+}
+header .contact i{
+    font-size: 28px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+header .contact i:hover{
+    color:	#333333;
+}
+main{
+    position: relative;
+    top: 600px;
+}
+.skills{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills h2{
+    font-size: 40px;
+    color: #999999;
+}
+.skills .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skills-img{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.two-skill{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.skills-img .two-skill div{
+    display: flex;
+    width: 100%;
+    background-color: 	#555555;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.projects img{
+    width: 95%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    flex-direction: row !important;
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    header p{
+        font-size: 34px;
+    }
+    .two-skill{
+        flex-direction: row;
+    }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    header p{
+        font-size: 38px;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    header p{
+        font-size: 44px;
+    }
+    header .contact i{
+        font-size: 35px;
+    }
+   
+    
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    header p{
+        font-size: 48px;
+    }
+    header .contact {
+        
+        top: 500px;
+    }
+    
+}
